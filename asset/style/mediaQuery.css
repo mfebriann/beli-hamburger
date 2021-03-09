@@ -1,0 +1,113 @@
+@media (max-width: 768px) {
+   nav ul {
+      align-items: flex-end;
+      flex-direction: column;
+      right: -200px;
+      top: 90px;
+      height: 100vh;
+      background-color: #be7240;
+      position: absolute;
+      padding: 30px 25px 30px 70px;
+      transition: 300ms ease-in;
+   }
+
+   nav ul.showNav {
+      right: 0;
+   }
+
+   nav ul li a {
+      color: #fff;
+   }
+
+   nav .hamburger-menu {
+      display: flex;
+   }
+
+   #about {
+      grid-template-columns: 1fr;
+      margin-top: 50px;
+   }
+
+   #about .bg-img img {
+      height: 500px;
+      width: 100%;
+   }
+
+   #contact {
+      grid-template-columns: 1fr;
+   }
+   #contact .question .img-question img {
+      display: none;
+   }
+}
+
+@media (max-width: 576px) {
+   nav {
+      padding: 15px 20px;
+   }
+
+   .hero .description {
+      padding: 150px 20px 40px;
+   }
+
+   .hero .description span {
+      display: inline;
+   }
+
+   #about {
+      padding: 0;
+   }
+
+   #about .descrip-about {
+      padding: 0 20px;
+   }
+
+   #menu {
+      padding: 40px 20px;
+   }
+   #contact {
+      padding: 0 20px;
+   }
+   #contact .question h3 {
+      font-size: 1.6em;
+   }
+
+   .call-point {
+      padding: 40px 20px;
+      justify-content: flex-start;
+   }
+
+   .call-point .text-call-point h2 {
+      font-size: 1.4em;
+   }
+   footer {
+      padding: 40px 20px;
+   }
+   footer .sub-footer {
+      justify-content: center;
+   }
+}
+
+@media (max-width: 360px) {
+   .hero .description .btn-buy {
+      padding: 8px 20px;
+   }
+   .hero .description .btn-buy h4 {
+      font-size: 1em;
+   }
+
+   #menu .wrap-card .card .discount {
+      top: 25px;
+      right: -50px;
+   }
+}
+
+@media (max-width: 317px) {
+   #menu .wrap-card .card .descrip-card .discount-price {
+      gap: 0;
+   }
+
+   #menu .wrap-card .card .descrip-card .discount-price h5:last-child {
+      margin: 0 30px 10px 0;
+   }
+}
